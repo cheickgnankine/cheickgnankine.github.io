@@ -193,7 +193,7 @@ function allDone() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // Travels to final page
-            window.location.replace("./tt.html");
+            window.location.replace("https://ahmed-thydjane.github.io/");
             
         }
     });
