@@ -23,6 +23,9 @@ var questions = [
 // Declared variables
 var score = 0;
 var questionIndex = 0;
+var createH1 = document.createElement("h1");
+    createH1.setAttribute("id", "createH1");
+    createH1.textContent = "QIZZ"
 
 // Start working code 
 // Declared variables
